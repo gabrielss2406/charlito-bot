@@ -15,11 +15,6 @@
 integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" 
     crossorigin="anonymous"></script>
 
-     <script
-      crossorigin="anonymous"
-      src="https://cdn.botframework.com/botframework-webchat/latest/webchat.js"
-      ></script>
-
    
     <link rel="stylesheet" href="./style/login.css">
     <title>Charlito Reports</title>
@@ -31,7 +26,7 @@ integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZD
             <div class="col-md-6 login-form-1" style='min-width: 250px; width: 100%; min-height: 500px;'>
                 <h3>Formulário de Pesquisa</h3>
                 
-                <iframe class="iframe"
+                <iframe
                 src= "https://forms.office.com/Pages/ResponsePage.aspx?id=PLXDtb-dKEmU6Cms_AgrnHYPn-JFVWFBmyBErXzdh-ZUNjVCTTdJQ1JQVkJZQU9NTzFLVDRWNTIyRC4u&embed=true"> 
                 </iframe>
             </div>
@@ -41,29 +36,17 @@ integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZD
                 <div class="login-logo">
                     <img src="./imagens/charllito.jpg" alt=""/>
                 </div>
-                <h3>Charllito</h3>
+                <h3>Charlito</h3>
                 
-		<div id="webchat" role="main" class="iframe"></div>
-
+                <iframe 
+                src='https://webchat.botframework.com/embed/charlito-bot-botz?s=zOBbBk3-cLA.FrygDHEOpGLljEabo4sYENqKr3zMORamFYchmashZKA'>
             
+            </iframe>
    
               
             </div>
         </form>
         </div>
     </div>
-
-<script>
-      window.WebChat.renderWebChat(
-        {
-          directLine: window.WebChat.createDirectLine({
-            token: 'EEAI-ixQcuE.lDOABgDGXH_5g-m8PPI5UlzcmuTjvI36CzUZ7-sDdcU'
-          }),styleOptions: {
-    	    hideUploadButton: true	
-	  }
-        },
-        document.getElementById('webchat')
-      );
-</script>
 </body>
 </html>
